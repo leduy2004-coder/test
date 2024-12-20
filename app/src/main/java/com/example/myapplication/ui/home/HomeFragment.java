@@ -26,6 +26,8 @@ public class HomeFragment extends Fragment {
 
         final TextView textView = binding.textHome;
         homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
+         String[] itemssss = new String[]{"12", "B1"};
         return root;
     }
 
