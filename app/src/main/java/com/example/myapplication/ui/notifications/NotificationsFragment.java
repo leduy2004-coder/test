@@ -54,6 +54,7 @@ public class NotificationsFragment extends Fragment {
         notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
+    String[] itemssss = new String[]{"12", "B1"};
 
     @Override
     public void onDestroyView() {
